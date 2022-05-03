@@ -1,5 +1,5 @@
 # text-editor
-# clone the /src folder and delete the old /src folder 
+# clone the /src folder and delete old /src folder 
 
 npm install
 
