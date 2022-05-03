@@ -441,14 +441,7 @@ let clipboardPaste = new ClipboardJS('#btnPaste');
         ><strong>p</strong>
         </button>
 
-        {/* <button
-        onMouseDown={event=>{
-            event.preventDefault()
-            const ffamily = prompt('Enter font family');
-            CustomEditor.toggleBlock(editor, ffamily)
-        }}> <em>calibri (body)</em> </button>     */}
-
-        <select value={fvalue} onChange={handleFFChange}>
+          <select value={fvalue} onChange={handleFFChange}>
           <option value="arial">arial</option>
           <option value="courier">courier</option>
           <option value="trebuchet ms">trebuchet ms</option>
